@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { TaskFormComponent } from './components/task-form/task-form.component';
 import { TaskListComponent } from './components/task-list/task-list.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
-import { FilterTasksPipe } from './components/filter-tasks/filter-tasks.pipe';
 
 export const routes: Routes = [{ path: '', component: AppComponent }];
 
@@ -17,15 +16,10 @@ export const routes: Routes = [{ path: '', component: AppComponent }];
     TaskFormComponent,
     TaskListComponent,
     TaskItemComponent,
-    FilterTasksPipe 
   ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    RouterModule.forRoot(routes),
-  ],
+  imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {
   ngDoBootstrap() {}
