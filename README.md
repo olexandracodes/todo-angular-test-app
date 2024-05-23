@@ -32,27 +32,27 @@ Implement an interface for the To-Do list with the following components:
 To-Do List App
 │
 ├── src/
-│ ├── app/
-│ │ ├── components/
-│ │ │ ├── task-form/
-│ │ │ │ ├── task-form.component.html
-│ │ │ │ ├── task-form.component.css
-│ │ │ │ └── task-form.component.ts
-│ │ │ ├── task-list/
-│ │ │ │ ├── task-list.component.html
-│ │ │ │ ├── task-list.component.css
-│ │ │ │ └── task-list.component.ts
-│ │ │ └── task-item/
-│ │ │ ├── task-item.component.html
-│ │ │ ├── task-item.component.css
-│ │ │ └── task-item.component.ts
-│ │ ├── app.component.html
-│ │ ├── app.component.css
-│ │ ├── app.component.ts
-│ │ └── app.module.ts
-│ └── assets/
-│ └── images/
-│ └── structure.png
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── task-form/
+│   │   │   │   ├── task-form.component.html
+│   │   │   │   ├── task-form.component.css
+│   │   │   │   └── task-form.component.ts
+│   │   │   ├── task-list/
+│   │   │   │   ├── task-list.component.html
+│   │   │   │   ├── task-list.component.css
+│   │   │   │   └── task-list.component.ts
+│   │   │   └── task-item/
+│   │   │       ├── task-item.component.html
+│   │   │       ├── task-item.component.css
+│   │   │       └── task-item.component.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.css
+│   │   ├── app.component.ts
+│   │   └── app.module.ts
+│   └── assets/
+│       └── images/
+│           └── structure.png
 └── README.md
 
 ### Image of the Structure
@@ -60,25 +60,6 @@ To-Do List App
 ![Structure](src/assets/images/structure.png)
 
 ## Functionality
-
-### Adding a Task
-
-1. **Enter Task Text:** Type the task text into the input field.
-2. **Click "Add Task":** Click the "Add Task" button to add the task to the list.
-
-### Marking a Task as Completed
-
-1. **Click "Mark as Completed":** Click the "Mark as Completed" button next to the task you want to mark as completed.
-
-### Deleting a Task
-
-1. **Click "Delete":** Click the "Delete" button next to the task you want to delete.
-
-### Filtering Tasks
-
-1. **Show All Tasks:** Click the "All" button to display all tasks.
-2. **Show Completed Tasks:** Click the "Completed" button to display only completed tasks.
-3. **Show Incomplete Tasks:** Click the "Incomplete" button to display only incomplete tasks.
 
 <table>
   <tr>
