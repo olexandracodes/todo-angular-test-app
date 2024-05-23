@@ -1,0 +1,12 @@
+<div class="task-item">
+    <div class="text-container">
+      <span [class.completed]="task.completed">{{ task.text }}</span>
+    </div>
+    <div class="button-container">
+      <button (click)="onToggleTask()">
+        {{ task.completed ? 'Mark as Incomplete' : 'Mark as Completed' }}
+      </button>
+      <button (click)="onDeleteTask()">Delete</button>
+    </div>
+  </div>
+  

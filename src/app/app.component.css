@@ -1,0 +1,48 @@
+.app {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid var(--mainColor);
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.filter-buttons button {
+  background-color: var(--secondaryColor);
+  color: white; 
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.filter-buttons button.active {
+  background-color: var(--mainColor);
+}
+
+@media (max-width: 768px) {
+  .app {
+    max-width: 90%;
+    padding: 1rem;
+  }
+
+  form {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  input {
+    width: 100%;
+  }
+}

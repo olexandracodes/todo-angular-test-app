@@ -1,0 +1,22 @@
+.filter-title {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.filter-buttons button {
+  background-color: var(--secondaryColor);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.filter-buttons button.active {
+  background-color: var(--mainColor);
+  color: white;
+}

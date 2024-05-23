@@ -1,0 +1,25 @@
+form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid var(--mainColor);
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: var(--secondaryColor);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: var(--mainColor);
+  }
