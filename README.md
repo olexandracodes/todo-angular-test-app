@@ -29,34 +29,6 @@ Implement an interface for the To-Do list with the following components:
 
 ### Component Structure
 
-To-Do List App
-│
-├── src/
-│   ├── app/
-│   │   ├── components/
-│   │   │   ├── task-form/
-│   │   │   │   ├── task-form.component.html
-│   │   │   │   ├── task-form.component.css
-│   │   │   │   └── task-form.component.ts
-│   │   │   ├── task-list/
-│   │   │   │   ├── task-list.component.html
-│   │   │   │   ├── task-list.component.css
-│   │   │   │   └── task-list.component.ts
-│   │   │   └── task-item/
-│   │   │       ├── task-item.component.html
-│   │   │       ├── task-item.component.css
-│   │   │       └── task-item.component.ts
-│   │   ├── app.component.html
-│   │   ├── app.component.css
-│   │   ├── app.component.ts
-│   │   └── app.module.ts
-│   └── assets/
-│       └── images/
-│           └── structure.png
-└── README.md
-
-### Image of the Structure
-
 ![Structure](src/assets/images/structure.png)
 
 ## Functionality
