@@ -79,6 +79,10 @@ Implement an interface for the To-Do list with the following components:
   </tr>
 </table>
 
+## Deployment
+
+This project is deployed using Vercel and can be accessed [here](https://todo-angular-test-app.vercel.app/).
+
 ## Author
 
 Author: [Olexandra Kunytska](https://github.com/olexandracodes)
